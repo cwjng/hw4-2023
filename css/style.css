@@ -134,6 +134,7 @@ nav li:hover, nav li:focus {
 .container {
   display: grid;
   grid-template-columns: 1fr 5fr 1fr;
+  /*   -1 point for using row-gap: 15px instead of grid-gap 15px. */
   row-gap: 15px;
 }
 
@@ -183,6 +184,7 @@ first div in the grid  and place it in the grid. */
 
  /* Step 8: Write the selector/rule property to style the .text-block class. */
 .text-block {
+/*   -1 point: we were looking for justify-self: center; align-self: center; instead of margin: auto; to center your content. */
   margin: auto;
   display: flex;
   flex-wrap: wrap;
